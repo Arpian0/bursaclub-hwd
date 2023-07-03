@@ -1,17 +1,85 @@
-<ion-header [translucent]="true">
+<ion-header collapse="condense">
   <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+    <ion-title class="ion-text-center" style="font-weight: 600; font-size: 24px;">Transfer Pemain</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <!-- CARD 1 -->
+  <div class="card; align-items: center;">
+    <ion-card>
+      <ion-list>
+        <ion-grid>
+          <!-- CLUB A -->
+          <ion-row>
+            <ion-col class="ion-text-center">
+              <img src="assets/images/club1.svg" height="60" /><br />
+              <ion-text color="dark">FC Bayern Munich<br /></ion-text>
+            </ion-col>
+            <ion-col class="ion-text-center">
+              <img src="assets/images/arrow-left.svg" />
+            </ion-col>
+            <ion-col class="ion-text-center">
+              <img src="assets/images/club2.svg" height="60" /><br />
+              <ion-text color="dark">FC Barcelona<br /></ion-text>
+            </ion-col>
+          </ion-row>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+          <!-- PEMAIN -->
+          <div class="image-container">
+            <ion-row>
+              <ion-col class="ion-text-center">
+                <img src="assets/images/pemain1.svg" height="60" /> <br />
+                <ion-text color="dark">R. Lewandowski | </ion-text>
+                <img src="assets/images/negara1.svg" height="10" /><br />
+                <ion-text color="dark">Striker <br />
+                Polandia <br />
+                1440 bellion
+              </ion-text>
+              </ion-col>
+            </ion-row>
+          </div>
+        </ion-grid>
+      </ion-list>
+    </ion-card>
+  </div>
+
+    <!-- CARD 2 -->
+    <div class="card; align-items: center;">
+      <ion-card>
+        <ion-list>
+          <ion-grid>
+            <!-- CLUB A -->
+            <ion-row>
+              <ion-col class="ion-text-center">
+                <img src="assets/images/club3.svg" height="60" /><br />
+                <ion-text color="dark">Borussia Dortmund<br /></ion-text>
+              </ion-col>
+              <ion-col class="ion-text-center">
+                <img src="assets/images/arrow-left.svg" />
+              </ion-col>
+              <ion-col class="ion-text-center">
+                <img src="assets/images/club4.svg" height="60" /><br />
+                <ion-text color="dark">Manchester City<br /></ion-text>
+              </ion-col>
+            </ion-row>
+  
+            <!-- PEMAIN -->
+            <div class="image-container">
+              <ion-row>
+                <ion-col class="ion-text-center">
+                  <img src="assets/images/pemain2.svg" height="60" /> <br />
+                  <ion-text color="dark">Erling Braut Haaland | </ion-text>
+                  <img src="assets/images/negara2.svg" height="10" /><br />
+                  <ion-text color="dark">Striker <br />
+                  Norwegia <br />
+                  1440 bellion
+                </ion-text>
+                </ion-col>
+              </ion-row>
+            </div>
+          </ion-grid>
+        </ion-list>
+      </ion-card>
+    </div>
 </ion-content>
