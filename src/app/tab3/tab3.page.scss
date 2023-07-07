@@ -1,61 +1,100 @@
 * {
-    font-family: Plus Jakarta Sans;
+  font-family: Plus Jakarta Sans;
+}
+
+.bg {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
 }
 .card1 {
-    margin-top: 147px;
-    margin-left: 28px;
-    margin-right: 20px;
-    position: absolute;
-    border-radius: 18px;
-    font-family: Plus Jakarta Sans;
-    padding: 8px;
+  margin-top: 147px;
+  margin-left: 28px;
+  margin-right: 20px;
+  position: absolute;
+  border-radius: 18px;
+  font-family: Plus Jakarta Sans;
+  padding: 8px;
 }
 
 .title1 {
-    color: #404040;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    padding-bottom: 4px;
+  color: #404040;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 4px;
 }
 
 .main1 {
-    color: #004D97;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding-top: 4px;
-    padding-bottom: 4px;
+  color: #004d97;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .season {
-    color: #EDBA00;
-    font-size: 9px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    padding-top: 4px;
+  color: #edba00;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 4px;
 }
 
 .jdul {
-    color: #404040;
-    font-size: 8px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    padding-top: 4px;
+  color: #404040;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 4px;
 }
 
 .listpemain {
-    margin-top: 55px;
-    padding-left: 40px;
-    padding-right: 40px;
-    text-decoration: none;
+  margin-top: 55px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
 }
 
 .detailbio {
-    word-wrap: break-word;     
-    padding: 24px;     
+  word-wrap: break-word;
+  padding: 2px;
+}
+
+.detailprestasi {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.content {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 3px;
+  align-items: center;
+  text-align: center;
+}
+
+.cardcup img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.cardcup p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
