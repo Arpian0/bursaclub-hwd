@@ -1,17 +1,104 @@
-<ion-header [translucent]="true">
+<ion-header collapse="condense">
   <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+    <ion-title class="ion-text-center" style="font-weight: 600; font-size: 24px"
+      >FC Barcelona</ion-title
+    >
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <!-- CARD  -->
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <img class="bg" src="assets/images/bgclub.svg" />
+
+  <!-- LIST CLUB -->
+  <ion-list class="list">
+    <ion-item>
+      <ion-label>Name Club</ion-label><span>Dari Tahun</span>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Manager Club</ion-label><span>Dari Tahun</span>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Tahun Berdiri</ion-label><span>Dari Tahun</span>
+    </ion-item>
+
+    <ion-item> <ion-label>Stadium</ion-label><span>Dari Tahun</span> </ion-item>
+  </ion-list>
+
+  <ion-card-content>
+    Barcelona atau Barça, adalah klub sepak bola profesional yang berbasis di
+    Barcelona, Catalunya, Spanyol, yang ikut serta di kompetisi tertinggi sepak
+    bola Spanyol, La Liga. Didirikan pada tahun 1899 oleh sekelompok pemain
+    Swiss, Inggris, Jerman dan Katalan yang dipimpin oleh Joan Gamper, klub
+    telah menjadi simbol budaya Catalan dan Catalanisme, yang mempunyai motto
+    "Més que un club" (Lebih dari sebuah klub).
+  </ion-card-content>
+
+  <!-- MANAJEMEN  -->
+  <div>
+    <ion-item class="title"> Staff </ion-item>
+    <ion-grid>
+      <ion-row>
+        <ion-col style="text-align: center" class="daftar">
+          <img src="assets/images/pemain3.svg" height="60" /><br />
+          Xavi H <br />
+          Pelatih
+        </ion-col>
+        <ion-col class="daftar"> </ion-col>
+        <ion-col class="daftar"> </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <!-- JAJARAN PEMAIN  -->
+  <div>
+    <ion-item class="title"> Pemain </ion-item>
+    <ion-grid style="align-items: center">
+      <ion-row>
+        <ion-col style="text-align: center">
+          <img src="assets/images/pemain1.svg" height="60" /> <br />
+          <div>
+            Lewandowski <br />
+            Striker
+          </div>
+        </ion-col>
+        <ion-col style="text-align: center">
+          <img src="assets/images/pemain1.svg" height="60" /> <br />
+          Lewandowski <br />
+          Striker
+        </ion-col>
+        <ion-col style="text-align: center" class="daftar">
+          <img src="assets/images/pemain1.svg" height="60" /> <br />
+          Lewandowski <br />
+          Striker
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+  <div>
+    <ion-grid style="align-items: center">
+      <ion-row>
+        <ion-col style="text-align: center">
+          <img src="assets/images/pemain1.svg" height="60" /> <br />
+          <div>
+            Lewandowski <br />
+            Striker
+          </div>
+        </ion-col>
+        <ion-col style="text-align: center">
+          <img src="assets/images/pemain1.svg" height="60" /> <br />
+          Lewandowski <br />
+          Striker
+        </ion-col>
+        <ion-col style="text-align: center" class="daftar">
+          <img src="assets/images/pemain1.svg" height="60" /> <br />
+          Lewandowski <br />
+          Striker
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
 </ion-content>
